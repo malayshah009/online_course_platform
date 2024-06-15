@@ -1,0 +1,46 @@
+.video-grid {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  align-items: center;
+  white-space: initial;
+  overflow: hidden;
+}
+
+body {
+  background-color: rgb(33, 37, 41);
+  color: #fff;
+}
+
+.go-to-course {
+  width: 20rem;
+  height: 3.8rem;
+  display: block;
+  justify-self: end;
+  border: none;
+  margin: 2rem;
+  margin-left: 0;
+  background: #005faf;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+
+.go-to-course a {
+  display: block;
+  font-size: 1.8rem;
+  color: #f5f5f5;
+}
+
+/* .video-grid {
+    width: 100%;
+  }
+  
+  .video-cnt {
+    background-color: bisque;
+    margin: 0.6rem;
+  }
+  
+  .vid-title {
+    margin-bottom: 1.2rem;
+  } */
